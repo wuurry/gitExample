@@ -1,1 +1,1 @@
-print('nice igraesh sinok, andryha loh')
+print('nice igraesh sinok, andryha loh i zhora tozhe')
