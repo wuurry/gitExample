@@ -1,0 +1,67 @@
+@startuml use_case
+left to right direction
+
+actor Официант
+actor Кухня
+actor Бар
+actor Администратор
+actor Владелец
+
+rectangle "Система учета заказов в кафе" {
+  usecase "Создать заказ" as UC1
+  usecase "Добавить позицию в заказ" as UC2
+  usecase "Удалить позицию из заказа" as UC3
+  usecase "Просмотреть заказ" as UC4
+  usecase "Поменять статус заказа" as UC5
+  
+  usecase "Создание сведений о заказе в БД" as UC6
+  usecase "Ввод данных о позиции" as UC7
+  usecase "Удаление всех данных о позиции" as UC8
+  usecase "Вывод данных о позиции" as UC9
+  usecase "Смена статуса заказа" as UC10
+  
+  usecase "Добавить блюдо в меню" as UC11
+  usecase "Удалить блюдо из меню" as UC12
+  usecase "Просмотр автособираемых отчетов" as UC13
+  
+  usecase "Ввод данных о блюде" as UC14
+  usecase "Удаление всех данных о блюде" as UC15
+  usecase "Вывод всех собранных данных в отчетах" as UC16
+}
+
+' Связи актеров с основными use cases
+Официант --> UC1
+Официант --> UC2
+Официант --> UC3
+Официант --> UC4
+Официант --> UC5
+
+Кухня --> UC4
+Кухня --> UC5
+
+Бар --> UC4
+Бар --> UC5
+
+Администратор --> UC1
+Администратор --> UC2
+Администратор --> UC3
+Администратор --> UC4
+Администратор --> UC5
+Администратор --> UC11
+Администратор --> UC12
+Администратор --> UC13
+
+Владелец --> UC11
+Владелец --> UC12
+Владелец --> UC13
+
+' Внутренние связи между use cases
+UC1 ..> UC6 : include
+UC2 ..> UC7 : include
+UC3 ..> UC8 : include
+UC4 ..> UC9 : include
+UC5 ..> UC10 : include
+
+UC11 ..> UC14 : include
+UC12 ..> UC15 : include
+UC13 ..> UC16 : include
