@@ -1,0 +1,102 @@
+[
+  {
+    "table_number": 1,
+    "status": "occupied",
+    "last_updated": "2025-11-21 17:37:57"
+  },
+  {
+    "table_number": 2,
+    "status": "free",
+    "last_updated": "2025-11-21 17:13:10"
+  },
+  {
+    "table_number": 3,
+    "status": "occupied",
+    "last_updated": "2025-11-21 18:41:02"
+  },
+  {
+    "table_number": 4,
+    "status": "free",
+    "last_updated": "2025-11-21 17:13:10"
+  },
+  {
+    "table_number": 5,
+    "status": "free",
+    "last_updated": "2025-11-21 17:13:10"
+  },
+  {
+    "table_number": 6,
+    "status": "free",
+    "last_updated": "2025-11-21 17:13:10"
+  },
+  {
+    "table_number": 7,
+    "status": "free",
+    "last_updated": "2025-11-21 17:13:10"
+  },
+  {
+    "table_number": 8,
+    "status": "free",
+    "last_updated": "2025-11-21 17:13:10"
+  },
+  {
+    "table_number": 9,
+    "status": "free",
+    "last_updated": "2025-11-21 17:13:10"
+  },
+  {
+    "table_number": 10,
+    "status": "free",
+    "last_updated": "2025-11-21 17:13:10"
+  },
+  {
+    "table_number": 11,
+    "status": "occupied",
+    "last_updated": "2025-11-21 18:52:41"
+  },
+  {
+    "table_number": 12,
+    "status": "free",
+    "last_updated": "2025-11-21 17:13:10"
+  },
+  {
+    "table_number": 13,
+    "status": "free",
+    "last_updated": "2025-11-21 17:13:10"
+  },
+  {
+    "table_number": 14,
+    "status": "free",
+    "last_updated": "2025-11-21 17:13:10"
+  },
+  {
+    "table_number": 15,
+    "status": "occupied",
+    "last_updated": "2025-11-21 17:14:30"
+  },
+  {
+    "table_number": 16,
+    "status": "occupied",
+    "last_updated": "2025-11-21 18:53:02"
+  },
+  {
+    "table_number": 17,
+    "status": "reserved",
+    "last_updated": "2025-11-21 17:23:11"
+  },
+  {
+    "table_number": 18,
+    "status": "free",
+    "last_updated": "2025-11-21 17:13:10"
+  },
+  {
+    "table_number": 19,
+    "status": "free",
+    "last_updated": "2025-11-21 17:13:10"
+  },
+  {
+    "table_number": 20,
+    "status": "free",
+    "last_updated": "2025-11-21 17:13:10"
+  }
+]
